@@ -1,1 +1,1 @@
-# Dev-Challenges
+# Sigma Web Dev course
