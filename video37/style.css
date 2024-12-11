@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw;
+}
+
+header nav{
+    position: sticky;
+    top: 0px;
+    background-color: peru;
+    height: 50px;
+}
+
+main section.boxes{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+main section.boxes div{
+    height: 600px;
+    display: inline-block;
+    width: 600px;
+
+}
+
+main section .box1{
+    background-color: bisque;
+    margin-right: 50px;
+
+}
+main section .box2{
+    background-color: rgb(211, 192, 172);
+}
+
+main section.text{
+    text-align: center;
+}
+main section.text h1{
+    display: inline-block;
+    background-color: blanchedalmond;
+    border: 1px solid rgb(225, 207, 179);
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 50px; 
+
+
+}
+
+footer{
+    background-color: aquamarine;
+    height: 60px;
+
+}
