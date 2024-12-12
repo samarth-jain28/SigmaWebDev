@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+header{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    
+
+}
+nav{
+    padding-right: 30px;
+}
+header>div.logo{
+    padding: 10px;
+    padding-left: 50px;
+    flex-grow: 1;
+}
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #222;
+}
