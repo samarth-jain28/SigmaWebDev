@@ -25,23 +25,40 @@ body{
 
 .nav{
     border: 1px solid rgb(255, 55, 0);
-    display: flex;
     height: 80px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
     border: 1px solid black;
     height: 40px;
-    width: 148px;
+    width: 146px;
 }
 .button-container{
     border: 1px solid blue;
-    height: 32px;
-    flex-grow: 2;
+    /* height: 32px; */
 }
 
+.submit-button{
+    background-color: red;
+    color: white;
+    padding: 0px 18px;
+    border: none;
+    border-radius: calc(0.25rem - 0.0625rem);
+}
+
+.button-container form{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 32px;
+}
+
+
+/* 
 .logo img{
     object-fit: contain;
-}
+} */
