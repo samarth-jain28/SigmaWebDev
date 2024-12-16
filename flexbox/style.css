@@ -36,6 +36,11 @@ div>div{
     flex-basis: auto;
 } */
 
+body{
+    border: 2px solid red;
+    height: 50vh;
+}
+
 .container{
     display: flex;
     gap: 50px;

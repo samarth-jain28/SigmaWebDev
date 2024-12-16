@@ -15,18 +15,35 @@
 
 <body>
     <div class="container">
-        <div class="header">
-            <div class="nav">
-                <div class="logo">
-                    <img src="assets/logos/netflixlogo.svg" alt="">
+        <div class="black">
+
+            <div class="header">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="assets/logos/netflixlogo.svg" alt="">
+                    </div>
+                    <div class="button-container">
+                        <form action="#" method="get">
+                            <select class="input">
+                                <option value="english">English</option>
+                                <option value="hindi">हिन्दी</option>
+                            </select>
+                            <button id="sign-in" class="submit-button" type="submit">Sign In</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="button-container">
-                    <form action="#" method="get">
-                        <select>
-                            <option value="english">English</option>
-                            <option value="hindi">हिन्दी</option>
-                        </select>
-                        <button style="height: 32px;" class="submit-button" type="submit">Sign In</button>
+            </div>
+
+            <div class="hero-title">
+                <div class="title">
+                    <h1>Unlimited movies, TV shows and more</h1>
+                    <h2>Starts at ₹149. Cancel at any time.</h2>
+                    <form action="">
+                        <legend>Ready to watch? Enter your email to create or restart your membership.</legend>
+                        <div class="title-button">
+                            <input id="email-address" type="email" name="email" placeholder="Email address">
+                            <button id="submit" class="submit-button" type="submit">Get Started</button>
+                        </div>
                     </form>
                 </div>
             </div>
